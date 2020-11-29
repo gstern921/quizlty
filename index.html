@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <form id="quiz-form">
+      <p id="alert-text">Alert text</p>
+
+      <div class="quizzes-container">
+        <div class="quiz-container current">
+          <div class="quiz-question">
+            <h2 class="quiz-question__title"></h2>
+          </div>
+          <ul class="quiz-answer-list">
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input
+                  class="answer-checkbox"
+                  type="radio"
+                  data-answer-id="c"
+                />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+          </ul>
+        </div>
+
+        <div class="quiz-container next snap fade-out">
+          <div class="quiz-question">
+            <h2 class="quiz-question__title"></h2>
+          </div>
+          <ul class="quiz-answer-list">
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+          </ul>
+        </div>
+
+        <div class="quiz-container previous snap fade-out">
+          <div class="quiz-question">
+            <h2 class="quiz-question__title"></h2>
+          </div>
+          <ul class="quiz-answer-list">
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+            <label class="quiz-answer-label">
+              <li class="quiz-answer">
+                <input class="answer-checkbox" type="radio" />
+                <p class="quiz-answer-text"></p>
+              </li>
+            </label>
+          </ul>
+        </div>
+
+        <button id="quiz-button" type="submit">Submit</button>
+      </div>
+    </form>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
